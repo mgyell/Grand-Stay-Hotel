@@ -240,7 +240,7 @@ const App: React.FC = () => {
                 </div>
                 
                 <footer className="mt-20 text-center text-slate-500 text-sm">
-                    © 2023 Grand Stay Hotel Group. All rights reserved. System Version 1.0.4
+                    © 2025 Grand Stay Hotel Group. All rights reserved. System Version 1.1.0
                 </footer>
             </div>
           </div>

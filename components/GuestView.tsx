@@ -27,8 +27,8 @@ const GuestView: React.FC<GuestViewProps> = ({ rooms, onBook }) => {
   const [guestName, setGuestName] = useState('');
   const [selectedRoom, setSelectedRoom] = useState<Room | null>(null);
   const [selectedAddOns, setSelectedAddOns] = useState<string[]>([]);
-  const [checkIn, setCheckIn] = useState('2023-11-10');
-  const [checkOut, setCheckOut] = useState('2023-11-12');
+  const [checkIn, setCheckIn] = useState('2025-11-10');
+  const [checkOut, setCheckOut] = useState('2025-11-12');
   const [nights, setNights] = useState(2);
   const [bookingId, setBookingId] = useState('');
 
@@ -58,7 +58,6 @@ const GuestView: React.FC<GuestViewProps> = ({ rooms, onBook }) => {
   };
 
   const calculateTotal = () => {
-    // Fix: Return object structure even when selectedRoom is null to match return type expected by destructuring
     if (!selectedRoom) return { subtotal: 0, tax: 0, total: 0 };
     const roomTotal = selectedRoom.price * nights;
     const servicesTotal = selectedAddOns.reduce((acc, id) => {
@@ -375,7 +374,7 @@ const GuestView: React.FC<GuestViewProps> = ({ rooms, onBook }) => {
                 <div className="mt-8 flex items-center justify-between">
                     <div className="flex items-center gap-2 text-sm text-slate-500">
                         <FileText className="w-4 h-4" />
-                        <span>Invoice #INV-2023-001</span>
+                        <span>Invoice #INV-2025-001</span>
                     </div>
                     <button 
                         onClick={handlePayment}

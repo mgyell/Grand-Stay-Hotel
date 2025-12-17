@@ -10,14 +10,14 @@ export const MOCK_ROOMS: Room[] = [
 ];
 
 export const MOCK_BOOKINGS: Booking[] = [
-  { id: 'BKG-001', guestName: 'Alice Johnson', roomNumber: '102', checkIn: '2023-10-25', checkOut: '2023-10-28', status: 'CHECKED_IN', totalAmount: 450 },
-  { id: 'BKG-002', guestName: 'Bob Smith', roomNumber: '201', checkIn: '2023-11-01', checkOut: '2023-11-05', status: 'CONFIRMED', totalAmount: 1200 },
+  { id: 'BKG-001', guestName: 'Alice Johnson', roomNumber: '102', checkIn: '2025-10-25', checkOut: '2025-10-28', status: 'CHECKED_IN', totalAmount: 450 },
+  { id: 'BKG-002', guestName: 'Bob Smith', roomNumber: '201', checkIn: '2025-11-01', checkOut: '2025-11-05', status: 'CONFIRMED', totalAmount: 1200 },
 ];
 
 export const MOCK_ORDERS: Order[] = [
-  { id: 'ORD-100', item: 'Fresh Linens (Set of 50)', type: 'SUPPLY', quantity: 2, amount: 250.00, status: 'PENDING', vendor: 'LinenPros Inc.', date: '2023-10-26' },
-  { id: 'ORD-101', item: 'Deep Clean - Room 301', type: 'SERVICE', quantity: 1, amount: 120.00, status: 'IN_PROGRESS', vendor: 'CleanCo Services', date: '2023-10-20' },
-  { id: 'ORD-102', item: 'Lobby AC Maintenance', type: 'SERVICE', quantity: 1, amount: 450.00, status: 'COMPLETED', vendor: 'TechCool HVAC', date: '2023-10-19' },
+  { id: 'ORD-100', item: 'Fresh Linens (Set of 50)', type: 'SUPPLY', quantity: 2, amount: 250.00, status: 'PENDING', vendor: 'LinenPros Inc.', date: '2025-10-26' },
+  { id: 'ORD-101', item: 'Deep Clean - Room 301', type: 'SERVICE', quantity: 1, amount: 120.00, status: 'IN_PROGRESS', vendor: 'CleanCo Services', date: '2025-10-20' },
+  { id: 'ORD-102', item: 'Lobby AC Maintenance', type: 'SERVICE', quantity: 1, amount: 450.00, status: 'COMPLETED', vendor: 'TechCool HVAC', date: '2025-10-19' },
 ];
 
 export const REVENUE_DATA: ChartData[] = [
@@ -45,8 +45,8 @@ export const MOCK_STAFF: StaffMember[] = [
 ];
 
 export const MOCK_INVOICES: VendorInvoice[] = [
-  { id: 'INV-001', vendorName: 'LinenPros Inc.', amount: 1250.00, date: '2023-10-15', status: 'PAID', serviceType: 'Laundry' },
-  { id: 'INV-002', vendorName: 'HotelEssentials', amount: 850.50, date: '2023-10-20', status: 'PENDING', serviceType: 'Supplies' },
-  { id: 'INV-003', vendorName: 'Gourmet Foods Ltd', amount: 2300.00, date: '2023-10-22', status: 'PENDING', serviceType: 'Catering' },
-  { id: 'INV-004', vendorName: 'TechSolutions', amount: 4500.00, date: '2023-10-01', status: 'OVERDUE', serviceType: 'IT Maintenance' },
+  { id: 'INV-001', vendorName: 'LinenPros Inc.', amount: 1250.00, date: '2025-10-15', status: 'PAID', serviceType: 'Laundry' },
+  { id: 'INV-002', vendorName: 'HotelEssentials', amount: 850.50, date: '2025-10-20', status: 'PENDING', serviceType: 'Supplies' },
+  { id: 'INV-003', vendorName: 'Gourmet Foods Ltd', amount: 2300.00, date: '2025-10-22', status: 'PENDING', serviceType: 'Catering' },
+  { id: 'INV-004', vendorName: 'TechSolutions', amount: 4500.00, date: '2025-10-01', status: 'OVERDUE', serviceType: 'IT Maintenance' },
 ];

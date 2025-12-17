@@ -146,7 +146,7 @@ const VendorView: React.FC<VendorViewProps> = ({ orders, invoices, onUpdateOrder
               <div>
                   <p className="text-slate-400 mb-1">Unbilled Amount</p>
                   <h2 className="text-4xl font-bold">${completedUnbilled.toFixed(2)}</h2>
-                  <p className="text-sm text-slate-400 mt-2">Cycle ends: Oct 31, 2023</p>
+                  <p className="text-sm text-slate-400 mt-2">Cycle ends: Oct 31, 2025</p>
               </div>
               <button className="bg-white text-slate-900 px-6 py-3 rounded-xl font-bold hover:bg-indigo-50 transition-colors flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Generate Statement

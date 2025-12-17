@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { UserRole } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'FAKE_API_KEY_FOR_DEVELOPMENT' });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const generateSystemResponse = async (
   prompt: string,
@@ -27,7 +27,7 @@ export const generateSystemResponse = async (
     `;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-3-flash-preview",
       contents: prompt,
       config: {
         systemInstruction: systemInstruction,
