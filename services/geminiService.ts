@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { UserRole } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'FAKE_API_KEY_FOR_DEVELOPMENT' });
 
 export const generateSystemResponse = async (
   prompt: string,
