@@ -1,5 +1,6 @@
+
 import { GoogleGenAI } from "@google/genai";
-import { UserRole } from "../types";
+import { UserRole } from "../types.ts";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 

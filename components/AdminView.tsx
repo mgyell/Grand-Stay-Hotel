@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
-import { ChartData, StaffMember, VendorInvoice } from '../types';
+import { ChartData, StaffMember, VendorInvoice } from '../types.ts';
 import { 
   TrendingUp, Users, DollarSign, Activity, FileText, Download, 
   Briefcase, CreditCard, AlertCircle, CheckCircle, PieChart as PieChartIcon,

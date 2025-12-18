@@ -1,4 +1,5 @@
-import { Room, RoomStatus, RoomType, Booking, Order, ChartData, StaffMember, VendorInvoice } from './types';
+
+import { Room, RoomStatus, RoomType, Booking, Order, ChartData, StaffMember, VendorInvoice } from './types.ts';
 
 export const MOCK_ROOMS: Room[] = [
   { id: '101', number: '101', type: RoomType.STANDARD, status: RoomStatus.AVAILABLE, price: 150, image: 'https://picsum.photos/400/300?random=1', features: ['Queen Bed', 'Wifi', 'City View'] },

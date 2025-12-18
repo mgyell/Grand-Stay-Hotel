@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { Order, VendorInvoice } from '../types';
+import { Order, VendorInvoice } from '../types.ts';
 import { Package, Truck, CheckCircle2, FileText, Upload, Clock, DollarSign, Wrench, Play, CheckSquare, Download, LayoutDashboard } from 'lucide-react';
 
 interface VendorViewProps {

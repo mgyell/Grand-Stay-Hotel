@@ -1,7 +1,8 @@
+
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Loader2, Phone } from 'lucide-react';
-import { UserRole } from '../types';
-import { generateSystemResponse } from '../services/geminiService';
+import { UserRole } from '../types.ts';
+import { generateSystemResponse } from '../services/geminiService.ts';
 
 interface AIChatProps {
   role: UserRole;

@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect } from 'react';
-import { Room, RoomStatus } from '../types';
+import { Room, RoomStatus } from '../types.ts';
 import { Calendar, Users, Star, CheckCircle, ArrowRight, ArrowLeft, CreditCard, FileText, Check, Loader2, LogIn, UserPlus, Search, Clock } from 'lucide-react';
 
 interface GuestViewProps {

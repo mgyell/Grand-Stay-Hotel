@@ -1,11 +1,12 @@
+
 import React, { useState } from 'react';
-import { UserRole, Room, RoomStatus, Booking, Task, Order, VendorInvoice } from './types';
-import { MOCK_ROOMS, MOCK_BOOKINGS, MOCK_ORDERS, REVENUE_DATA, OCCUPANCY_DATA, MOCK_STAFF, MOCK_INVOICES } from './constants';
-import GuestView from './components/GuestView';
-import StaffView from './components/StaffView';
-import AdminView from './components/AdminView';
-import VendorView from './components/VendorView';
-import AIChat from './components/AIChat';
+import { UserRole, Room, RoomStatus, Booking, Task, Order, VendorInvoice } from './types.ts';
+import { MOCK_ROOMS, MOCK_BOOKINGS, MOCK_ORDERS, REVENUE_DATA, OCCUPANCY_DATA, MOCK_STAFF, MOCK_INVOICES } from './constants.ts';
+import GuestView from './components/GuestView.tsx';
+import StaffView from './components/StaffView.tsx';
+import AdminView from './components/AdminView.tsx';
+import VendorView from './components/VendorView.tsx';
+import AIChat from './components/AIChat.tsx';
 import { LogOut, Building2, UserCircle, Briefcase, BarChart3, Truck, ChevronRight } from 'lucide-react';
 
 const App: React.FC = () => {

@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { Room, RoomStatus, Booking, Task } from '../types';
+import { Room, RoomStatus, Booking, Task } from '../types.ts';
 import { 
   LayoutDashboard, CalendarDays, ClipboardList, Wrench, 
   CheckCircle, Clock, AlertTriangle, User, LogIn, LogOut, 
